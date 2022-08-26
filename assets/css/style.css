@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none !important;
+	transition:all 0.3s linear;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+
+a{
+	text-decoration: none !important; 
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+	overflow: hidden;
+}
+
+/*
+==================================================
+	HEADER SECTION START
+==================================================
+*/
+.header-section{
+	background: #59B9E3;
+	padding: 20px 0;
+	height:820px;
+	position: relative;
+}
+
+.right-bg{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.left-bg{
+	position: absolute;
+	left: 0;
+	background: 50px;
+	background:;
+	z-index: 100;
+}
+
+/* ========= NAVBAR SECTION START =========== */
+
+.header-section  .top-navbar ul.nav li{
+	margin: 10px 18px;
+}
+.header-section  .top-navbar ul.nav li a{
+	color: #fff;
+	padding: 5px 0;
+	font-size: 15px;
+	opacity: 0.8;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+
+}
+.header-section  .top-navbar ul.nav li a:before{
+	content: '';
+	position: absolute;
+	left: -100%;
+	bottom: 5px;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	transition: 0.3s;
+}
+.header-section  .top-navbar ul.nav li a:hover,
+.header-section  .top-navbar ul.nav li a.active{
+	opacity: 1;
+}
+
+.header-section  .top-navbar ul.nav li a.active:before{
+	left: -80%;
+	opacity: 1;
+
+}
+.header-section  .top-navbar ul.nav li a:hover:before{
+	left: 0px;
+}
+
+.navbar-btn{
+	font-size: 15px;
+	color: #333;
+	background: #fff;
+	border-radius: 40px;
+	padding: 9px 19px;
+	border: 1px solid #fff;
+
+}
+.navbar-btn:hover{
+	color: #fff;
+	background: #6DB8FF;
+}
+
+/* ========= NAVBAR SECTION END =========== */
+
+
+/* =========  HEADER CONTENT START  =========== */
+.header-content .header-text{
+	margin: 20px 0;
+
+}
+.header-content .header-text h1{
+	font-size: 50px;
+	font-weight: 600;
+	color: #fff;
+	opacity: 9;
+	line-height: 1.3;
+}
+
+.header-content .header-text p{
+	color: #fff;
+	font-size: 17px;
+	line-height: 1.3;
+	opacity: 7;
+	margin: 20px 0;
+}
+
+.header-text-btn{
+	margin-top: 30px;
+}
+
+.header-text-btn a{
+	color: #333;
+	background: #fff;
+	font-size: 16px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 8px 20px;
+	padding-left: 30px;
+	width: 180px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-text-btn a i{
+	color: #fff;
+	opacity: 8;
+	font-size: 11px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: #6DB8FF;
+	border-radius: 50%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.header-text-btn a:hover{
+	color: #fff;
+	background: #6DB8FF;
+}
+
+.header-text-btn a:hover i{
+	color: #333;
+	background: #fff;
+}
+
+
+
+.header-img{
+	margin: 30px 0;
+}
+/* =========  HEADER CONTENT END  =========== */
+
+/*
+==================================================
+	HEADER SECTION END
+==================================================
+*/
+
+
+/*
+==================================================
+	BRAND SECION START
+==================================================
+*/
+.brand-section{
+	margin-top: 390px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.brand-section img{
+	width: 65%;
+	margin: auto;
+}
+/*
+==================================================
+	BRAND SECION END
+==================================================
+*/
+
+/*
+==================================================
+	SKILLED SECTION START
+==================================================
+*/
+.skilled-section{
+	margin: 50px 0;
+}
+
+.skilled-section .skilled-text{
+	margin: 20px 0;
+}
+
+.skilled-section .skilled-text h2{
+	font-size: 34px;
+	font-weight: 500;
+	color: #000;
+}
+.skilled-section .skilled-text p{
+	font-size: 15px;
+	margin: 20px 0;
+	color: #000;
+	opacity: 8;
+}
+
+
+
+.skilled-section .skilled-text .skilled-btn a{
+	font-size: 15px;
+	color: #fff;
+	border-radius: 40px;
+	padding: 10px 25px;
+	background: #6DB8FF;
+	border: 1px solid #6DB8FF;
+	margin: 10px 0;
+	margin-right: 30px;
+}
+.skilled-section .skilled-text .skilled-btn a:hover{
+	color: #333;
+	background: #fff;
+}
+
+.skilled-img img{
+	width: 120%;
+	margin-left: -30px;
+}
+
+/*
+==================================================
+	SKILLED SECTION END
+==================================================
+*/
+
+
+/*
+==================================================
+	GIG SECTION START
+==================================================
+*/
+
+.gig-section{
+	margin: 60px 0;
+}
+.gig-section .gig-heading{
+	margin: 40px 0;
+	margin-bottom: 60px;
+}
+
+.gig-section .gig-img img{
+	width: 90%;
+}
+.gig-section .gig-heading h1{
+	font-size: 42px;
+	font-weight: 500;
+
+}
+.gig-section .gig-text h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: #000;
+}
+.gig-section .gig-text p{
+	font-size: 15px;
+	margin: 20px 0;
+	color: #000;
+	opacity: 8;
+}
+.gig-btn{
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+}
+.gig-btn a{
+	font-size: 16px;
+	color: #fff;
+	border-radius: 40px;
+	padding: 10px 25px;
+	background: #6DB8FF;
+	border: 1px solid #6DB8FF;
+	margin: 10px 0;
+	margin-right: 40px;
+}
+.gig-btn a:hover{
+	color: #333;
+	background: #fff;
+}
+
+/*
+==================================================
+	GIG SECTION END
+==================================================
+*/
+
+
+/*
+==================================================
+	CARD SECTION START 
+==================================================
+*/
+.card-section .card-text .card-body:hover,
+.shadow{
+	box-shadow: 15px 20px 20px  lightgrey !important;
+}
+.card-section{
+	margin: 100px 0;
+}
+.card-section .card-text .card-body{
+	background: #fff;
+	margin: 20px 0;
+}
+.card-section .card-text .card-body .card-profile{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #EDF6FF;
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card-section .card-text .card-body .card-profile img{
+	width: 60px;
+
+}
+
+.card-section .card-text .card-body  .card-text{
+	margin: 20px 0;
+}
+.card-section .card-text .card-body  .card-text h4{
+	font-size: 22px;
+	font-weight: 500;
+}
+.card-section .card-text .card-body  .card-text p{
+	font-size: 15px;
+	padding: 0 5px;
+	margin: 20px 0;
+}
+.card-img img{
+	width: 45px;
+}
+/*
+==================================================
+	CARD SECTION END 
+==================================================
+*/
+
+
+/*
+==================================================
+	CONTRACT SECTION START
+==================================================
+*/
+.contract-section{
+	padding: 40px 0;
+	padding-bottom: 0;
+}
+.contract-section .contract-text{
+	margin: 20px 0;
+}
+.contract-section .contract-text h2{
+	font-size: 36px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.contract-section .contract-text p{
+	font-size: 15px;
+	font-weight: 500;
+	color: #666;
+	margin-bottom: 30px;
+}
+/*
+==================================================
+	CONTRACT SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	ECONOMY SECTION START
+==================================================
+*/
+.economy-section{
+	margin: 40px 0;
+}
+.economy-section .economy-img img{
+	width: 90%;
+}
+.economy-text{
+	margin: 20px 0;
+}
+
+.economy-text .slide-header {
+	margin: 50px 0;
+}
+.economy-text .slide-header .media-img{
+	width: 50px;
+	height: 50px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background: #FFC3AF;
+	margin-right: 15px;
+	overflow: hidden;
+}
+.economy-text .slide-header .media-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.economy-text .slide-header h5{
+	font-size: 18px;
+	font-weight: 600;
+}
+.economy-text .slide-header span{
+	font-size: 16px;
+	font-weight: 300;
+	color: #777;
+}
+.economy-text .slide-text{
+	margin: 20px 0;
+}
+.economy-text .slide-text h3{
+	font-size: 30px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.economy-text .slide-text p{
+	font-size: 15px;
+	font-weight: 500;
+	color: #666;
+}
+
+.economy-text .owl-nav{
+	position: absolute;
+	top: 35px;
+	right: 30px;
+}
+.economy-text .owl-nav .owl-next,
+.economy-text .owl-nav .owl-prev{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #fff !important;
+	border: 1px solid #6DB8FF !important;
+	overflow: hidden;
+}
+.economy-text .owl-nav .owl-next:hover,
+.economy-text .owl-nav .owl-prev:hover{
+	background: #6DB8FF !important;
+}
+.economy-text .owl-nav .owl-next span,
+.economy-text .owl-nav .owl-prev span{
+	font-size: 30px;
+	height: auto;
+	background: transparent;
+	padding: 0 !important;
+	line-height: 25px;
+	transition: 0.1s;
+
+}
+/*
+==================================================
+	ECONOMY SECTION END
+==================================================
+*/
+
+
+/*
+==================================================
+	BLOG SECTION START
+==================================================
+*/
+.blog-section{
+	margin: 70px 0;
+}
+.blog-section .blog-heading{
+	margin: 50px 0;
+}
+.blog-section .blog-heading h1{
+	font-size: 38px;
+	font-weight: 600;
+	/*padding: 30px 0;*/
+}
+.blog-section .blog-card-container{
+	margin: 20px 0;
+}
+
+.blog-section .blog-card img{
+	width: 100%;
+}
+.blog-section .blog-text{
+	padding: 15px;
+}
+.blog-section .blog-text span{
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 7px 15px;
+	border-radius: 4px;
+}
+
+.blog-section .blog-text span.red{
+	color: #FF4855;
+	background: #FFF4F5;
+}
+.blog-section .blog-text span.green{
+	color: #88B23C;
+	background: #F5F8EE;
+}
+.blog-section .blog-text span.blue{
+	color: #44A3FF;
+	background: #EDF6FF;
+}
+
+.blog-section .blog-text h4{
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 1.3;
+	margin: 20px 0;
+}
+
+/*
+==================================================
+	BLOG SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	 FOOTER SECTION START
+==================================================
+*/
+.footer-section{
+	padding: 50px 0;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+
+.footer-section .footer-text{
+	margin: 20px 0;
+	padding-right: 20px;
+}
+
+.footer-section .footer-text p{
+	font-size: 14px;
+}
+.footer-section .footer-link{
+	margin: 20px 0;
+}
+.footer-section .footer-link h4{
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.footer-section .footer-link ul li{
+	margin: 5px 0;
+}
+.footer-section .footer-link ul li a{
+	font-size: 16px;
+	font-weight: 500;
+	color: #333;
+}
+.footer-section .footer-link ul li a:hover{
+	color: #44A3FF;
+}
+.footer-section .footer-social-link{
+	margin: 20px 0;
+} 
+.footer-section .footer-social-link ul li a{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.footer-section .footer-social-link ul li a i{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	color: #333;
+	background: #fff;
+	box-shadow: 2px 8px 5px  -4px lightgrey;
+	font-size: 17px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-section .footer-social-link ul li a:hover i,
+.footer-section .footer-social-link ul li a.active i{
+	color: #fff;
+	background: #000;
+	box-shadow: none;
+}
+
+.footer-section .footer-social-link p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #333;
+	margin: 10px 0;
+}
+
+.footer-section .footer-social-link .download-btns .btn{
+	border-radius: 40px;
+	overflow: hidden;
+	margin-left: -20px;
+}
+.copyright{
+	border-top: 1px solid lightgrey;
+	padding-top: 30px;
+	margin-top: 20px;
+}
+.copyright p{
+	font-size: 17px;
+	margin-bottom: 0;
+
+}
+/*
+==================================================
+	 FOOTER SECTION START
+==================================================
+*/

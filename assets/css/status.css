@@ -1,0 +1,147 @@
+/*
+==================================================
+	HEADER SECTION START
+==================================================
+*/
+.header-section{
+	background: #59B9E3;
+	padding: 20px 0;
+	height:auto;
+}
+.status-header-text{
+	margin: 60px 0;
+	padding: 40px 0;
+	text-align: center;
+}
+.status-header-text h1{
+	color: #fff;
+	font-size: 54px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+/*
+==================================================
+	HEADER SECTION END
+==================================================
+*/
+
+
+
+/*
+==================================================
+	APP SECTION START 
+==================================================
+*/
+.app-section{
+	margin: 100px 0;
+}
+
+/*
+==================================================
+	APP SECTION END 
+==================================================
+*/
+
+
+/*
+==================================================
+	STATUS POST SECTION START
+==================================================
+*/
+.status-post-section{
+	margin: 70px 0;
+	margin-bottom: 0;
+	padding: 50px 0;
+	position: relative;
+	z-index: 10;
+}
+.status-post-section .btm-bg-img,
+.status-post-section .top-bg-img{
+	position: absolute;
+}
+.status-post-section .top-bg-img{
+	top: -20px;
+	left: 0;
+}
+.status-post-section .btm-bg-img{
+	right: 0;
+	bottom: 0;
+}
+
+.status-post-section .status-card{
+	width: 100%;
+	padding: 5px 20px;
+	background: #fff;
+	box-shadow: 0 0 10px 3px  lightgrey;
+	border-radius: 20px;
+	margin: 20px 0;
+	z-index: 10;
+}
+.status-post-section .status-card:hover{
+	box-shadow: 0 0 20px 5px  lightgrey;
+
+}
+
+.status-post-section .status-card .status-card-img{
+	width: 250px;
+	margin: auto;
+}
+.status-post-section .status-card .status-card-img img{
+	width: 100%;
+}
+
+.status-post-section .status-card .status-card-text{
+	margin: 20px 0;
+}
+.status-post-section .status-card .status-card-text h3{
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 1.5;
+	text-transform: capitalize;
+}
+
+/*
+==================================================
+	STATUS POST SECTION END
+==================================================
+*/
+
+
+@media screen and (max-width: 767px){
+
+.status-header-text h1{
+	font-size: 40px;
+}
+
+}
+
+
+@media screen and (max-width: 575px){
+.app-section{
+	margin: 50px 0;
+}
+
+.status-header-text{
+	margin: 30px 0;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.status-header-text h1{
+	font-size: 22px;
+}
+.status-post-section{
+	margin: 0px 0;
+	padding: 30px 0;
+}
+
+.status-post-section .status-card .status-card-img{
+	width: 180px;
+	margin: auto;
+}
+
+.status-post-section .status-card .status-card-text h3{
+	font-size: 13px;
+}
+
+}

@@ -1,0 +1,192 @@
+/*
+=========================================
+	HEADER CONTENT START
+=========================================
+*/
+.header-content h1{
+	text-transform: none;
+}
+
+/*
+=========================================
+	HEADER CONTENT END
+=========================================
+*/
+
+
+
+/*
+=========================================
+	FEATURE POSTS START
+=========================================
+*/
+.feature-posts{
+	background: url('../img/feature/left top2.png');
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+.feature-heading{
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+.feature-heading span span{
+	font-size: 45px;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.feature-heading span img{
+	display: inline-block;
+	width: 110px;
+}
+.feature-heading h1{
+	font-size: 75px;
+	font-weight: 600;
+	color: #47BBED;
+	-webkit-text-stroke: 2px black;
+}
+
+
+
+.feature-card{
+	padding:  20px;
+	border-radius: 20px;
+	background: #fff;
+	box-shadow: 0 0 25px -10px grey;
+	margin-bottom: 120px;
+}
+
+.left-gap{
+	margin-left: 50px;
+}
+.feature-card:hover{
+	box-shadow: 0 0 25px -5px grey;
+
+}
+.feature-card .feature-img{
+	margin-left: 20px;
+	margin-right: 5px;
+}
+.feature-card .feature-img img{
+	width: 100px;
+}
+.feature-card .feature-card-text h1{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.feature-card .feature-card-text  h4{
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-transform: capitalize;
+}
+/*
+=========================================
+	FEATURE POSTS END
+=========================================
+*/
+
+
+@media screen and (max-width: 991px){
+.left-gap{
+	margin-left: 30px;
+}
+
+.feature-card .feature-card-text h1{
+	font-size: 35px;
+}
+.feature-card .feature-card-text  h4{
+	font-size: 22px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 767px){
+
+.feature-heading span span{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 15px;
+}
+
+.feature-heading span img{
+	width: 90px;
+}
+.feature-heading h1{
+	font-size: 63px;
+}
+
+
+
+.feature-card{
+	padding:  20px;
+	margin-bottom: 70px;
+
+}
+.feature-card .feature-img{
+	margin-left: 0px;
+}
+.feature-card .feature-img img{
+	width: 90px;
+}
+
+.feature-card .feature-card-text h1{
+	font-size: 30px;
+}
+.feature-card .feature-card-text  h4{
+	font-size: 20px;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 575px){
+.left-gap{
+	margin-left: 10px;
+}
+.feature-heading span span{
+	font-size: 35px;
+	margin-top: 10px;
+}
+.feature-heading span img{
+	width: 65px;
+}
+.feature-heading h1{
+	font-size: 50px;
+}
+
+
+
+.feature-card{
+	padding:  20px 10px;
+	margin-bottom: 40px;
+
+}
+.feature-card .feature-img{
+	margin-left: 0px;
+}
+.feature-card .feature-img img{
+	width: 50px;
+}
+
+.feature-card .feature-card-text h1{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.feature-card .feature-card-text  h4{
+	font-size: 16px;
+}
+
+
+}

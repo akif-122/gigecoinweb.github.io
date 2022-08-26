@@ -1,0 +1,753 @@
+
+
+@media screen and (max-width: 1199px){
+
+/*
+==================================================
+	BRAND SECION START
+==================================================
+*/
+.brand-section{
+	margin-top: 300px;
+	margin-bottom: 100px;
+}
+
+/*
+==================================================
+	BRAND SECION END
+==================================================
+*/
+
+
+/*
+==================================================
+	SKILLED SECTION START
+==================================================
+*/
+.skilled-section{
+	margin: 10px 0;
+}
+
+.skilled-section .skilled-text{
+	margin: 20px 0;
+}
+
+.skilled-section .skilled-text h2{
+	font-size: 30px;
+}
+
+
+
+/*
+==================================================
+	SKILLED SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	GIG SECTION START
+==================================================
+*/
+
+
+.gig-section .gig-heading h1{
+	font-size: 34px;
+}
+.gig-section .gig-text h2{
+	font-size: 29px;
+}
+
+
+/*
+==================================================
+	GIG SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	CARD SECTION START 
+==================================================
+*/
+
+.shadow{
+	box-shadow: 15px 20px 20px  lightgrey !important;
+}
+.card-section{
+	margin: 100px 0;
+	margin-top: 160px;
+}
+
+/*
+==================================================
+	CARD SECTION END 
+==================================================
+*/
+
+/*
+==================================================
+	CONTRACT SECTION START
+==================================================
+*/
+.contract-section{
+	padding: 50px 0;
+}
+
+.contract-section .contract-text h2{
+	font-size: 30px;
+}
+/*
+==================================================
+	CONTRACT SECTION END
+==================================================
+*/
+.economy-text .owl-nav{
+	top: 40px;
+}
+
+
+}
+
+@media screen and (max-width: 991px){
+.economy-text .owl-nav{
+	top: 20px;
+}
+/*
+==================================================
+	HEADER SECTION START
+==================================================
+*/
+.header-section{
+	height:700px;
+}
+/* ========= NAVBAR SECTION START =========== */
+.navbar-toggler{
+	border: none;
+}
+.navbar-toggler.shower .opener,
+.navbar-toggler .closer{
+	display: none ;
+}
+.navbar-toggler .opener,
+.navbar-toggler.shower .closer{
+	display: inline-block;
+}
+.navbar-toggler span{
+	color: #fff;
+	font-size: 20px;
+}
+.header-section  .top-navbar ul.nav li{
+	margin: 0px 18px;
+	border-bottom: 1px solid lightgrey;
+	text-align: center;
+}
+.header-section  .top-navbar ul.nav li a{
+	padding: 5px;
+	display:block;
+
+}
+.navbar-btn{
+	display: inline-block;
+	margin-top: 10px;
+
+}
+.nav-right li{
+	text-align: center;
+
+}
+
+/* ========= NAVBAR SECTION END =========== */
+
+/*
+==================================================
+	HEADER SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	BRAND SECION START
+==================================================
+*/
+.brand-section{
+	margin-top: 230px;
+	margin-bottom: 80px;
+}
+.brand-section img{
+	width: 75%;
+}
+/*
+==================================================
+	BRAND SECION END
+==================================================
+*/
+/*
+==================================================
+	SKILLED SECTION START
+==================================================
+*/
+
+.skilled-section .skilled-text h2{
+	font-size: 24px;
+	font-weight: 500;
+	color: #000;
+}
+
+
+.skilled-section .skilled-text .skilled-btn a{
+	margin: 5px 0;
+	margin-right: 5px;
+}
+
+
+.skilled-img img{
+	width: 130%;
+	margin-left: -30px;
+}
+
+/*
+==================================================
+	SKILLED SECTION END
+==================================================
+*/
+
+
+/*
+==================================================
+	GIG SECTION START
+==================================================
+*/
+
+
+.gig-section .gig-img img{
+	width: 90%;
+}
+.gig-section .gig-heading h1{
+	font-size: 26px;
+
+}
+.gig-section .gig-text h2{
+	font-size: 21px;
+}
+
+/*
+==================================================
+	GIG SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	CARD SECTION START 
+==================================================
+*/
+.card-section .card-text .card-body:hover,
+.shadow{
+	box-shadow: 15px 20px 20px  lightgrey !important;
+}
+.card-section{
+	margin-bottom: 0;
+}
+
+/*
+==================================================
+	CARD SECTION END 
+==================================================
+*/
+
+/*
+==================================================
+	CONTRACT SECTION START
+==================================================
+*/
+.contract-section{
+	padding-top: 50px ;
+	padding-bottom: 10px;
+}
+
+.contract-section .contract-text h2{
+	font-size: 24px;
+}
+/*
+==================================================
+	CONTRACT SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	ECONOMY SECTION START
+==================================================
+*/
+
+
+.economy-text .slide-header {
+	margin: 30px 0;
+}
+.economy-text .slide-header .media-img{
+	width: 40px;
+	height: 40px;
+}
+
+.economy-text .slide-header h5{
+	font-size: 16px;
+}
+.economy-text .slide-header span{
+	font-size: 14px;
+}
+
+.economy-text .slide-text h3{
+	font-size: 22px;
+}
+/*
+==================================================
+	ECONOMY SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	BLOG SECTION START
+==================================================
+*/
+.blog-section{
+	margin: 70px 0;
+}
+.blog-section .blog-heading{
+	margin: 30px 0;
+}
+.blog-section .blog-heading h1{
+	font-size: 30px;
+
+}
+
+.blog-section .blog-text{
+	padding: 10px;
+}
+.blog-section .blog-text span{
+	font-size: 11px;
+}
+
+.blog-section .blog-text span.red{
+	color: #FF4855;
+	background: #FFF4F5;
+}
+.blog-section .blog-text span.green{
+	color: #88B23C;
+	background: #F5F8EE;
+}
+.blog-section .blog-text span.blue{
+	color: #44A3FF;
+	background: #EDF6FF;
+}
+
+.blog-section .blog-text h4{
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.3;
+	margin: 20px 0;
+}
+
+/*
+==================================================
+	BLOG SECTION END
+==================================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 767px){
+.right-bg{
+	width: 250px;
+}
+
+.left-bg{
+	width: 200px;
+}
+
+/*
+==================================================
+	HEADER SECTION START
+==================================================
+*/
+.header-section{
+	background: #59B9E3;
+	padding: 20px 0;
+	height: 620px;
+}
+
+
+/* =========  HEADER CONTENT START  =========== */
+
+.header-content .header-text h1{
+	font-size: 40px;
+
+}
+
+.header-content .header-text p{
+	font-size: 16px;
+}
+
+/* =========  HEADER CONTENT END  =========== */
+
+/*
+==================================================
+	HEADER SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	BRAND SECION START
+==================================================
+*/
+.brand-section{
+	margin-top: 150px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.brand-section img{
+	width: 60%;
+	margin: auto;
+}
+/*
+==================================================
+	BRAND SECION END
+==================================================
+*/
+
+
+/*
+==================================================
+	GIG SECTION START
+==================================================
+*/
+
+.gig-section{
+	margin: 0px 0;
+}
+.gig-section .gig-heading{
+	margin: 10px 0;
+}
+
+
+/*
+==================================================
+	GIG SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	CARD SECTION START 
+==================================================
+*/
+.card-section .card-text .card-body:hover,
+.shadow{
+	box-shadow: 15px 20px 20px  lightgrey !important;
+}
+.card-section{
+	margin: 40px 0;
+}
+
+/*
+==================================================
+	CARD SECTION END 
+==================================================
+*/
+
+}
+
+
+
+@media screen and (max-width: 575px){
+.right-bg{
+	width: 200px;
+}
+
+.left-bg{
+	width: 150px;
+}
+/* =========  HEADER CONTENT START  =========== */
+.header-section{
+	height:520px;
+}
+
+.header-content .header-text{
+	margin: 20px 0;
+
+}
+.header-content .header-text h1{
+	font-size: 30px;
+}
+
+.header-content .header-text p{
+	font-size: 14px;
+}
+
+/* =========  HEADER CONTENT END  =========== */
+
+
+
+/*
+==================================================
+	BRAND SECION START
+==================================================
+*/
+.brand-section{
+	margin-top: 140px;
+	margin-bottom: 50px;
+}
+.brand-section img{
+	width: 80%;
+}
+/*
+==================================================
+	BRAND SECION END
+==================================================
+*/
+
+/*
+==================================================
+	SKILLED SECTION START
+==================================================
+*/
+.skilled-section{
+	margin: 30px 0;
+	margin-bottom: 0;
+}
+
+.skilled-section .skilled-text{
+	margin: 20px 0;
+}
+
+.skilled-section .skilled-text h2{
+	font-size: 20px;
+}
+.skilled-section .skilled-text p{
+	font-size: 14px;
+
+}
+
+
+
+.skilled-section .skilled-text .skilled-btn a{
+	font-size: 14px;
+	margin-right: 0px;
+}
+.skilled-section .skilled-text .skilled-btn a:hover{
+	color: #333;
+	background: #fff;
+}
+
+.skilled-img img{
+	width: 115%;
+	margin-left: -20px;
+}
+
+/*
+==================================================
+	SKILLED SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	GIG SECTION START
+==================================================
+*/
+
+.gig-section{
+	margin: 60px 0;
+}
+.gig-section .gig-heading{
+	margin: 40px 0;
+	margin-bottom: 50px;
+}
+
+.gig-section .gig-img img{
+	width: 100%;
+}
+.gig-section .gig-heading h1{
+	font-size: 24px;
+
+}
+.gig-section .gig-text h2{
+	font-size: 20px;
+}
+.gig-section .gig-text p{
+	font-size: 14px;
+}
+.gig-btn a{
+	font-size: 14px;
+	margin-right: 00px;
+}
+
+
+/*
+==================================================
+	GIG SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	CARD SECTION START 
+==================================================
+*/
+.card-section .card-text .card-body:hover,
+.shadow{
+	box-shadow: 10px 15px 15px  lightgrey !important;
+}
+.card-section{
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+.card-section .card-text .card-body  .card-text h4{
+	font-size: 18px;
+	font-weight: 500;
+}
+.card-section .card-text .card-body  .card-text p{
+	font-size: 14px;
+}
+
+/*
+==================================================
+	CARD SECTION END 
+==================================================
+*/
+
+
+/*
+==================================================
+	CONTRACT SECTION START
+==================================================
+*/
+.contract-section{
+	padding: 30px 0;
+	padding-bottom: 0;
+}
+.contract-section .contract-text{
+	margin: 20px 0;
+}
+.contract-section .contract-text h2{
+	font-size: 20px;
+}
+.contract-section .contract-text p{
+	font-size: 14px;
+}
+/*
+==================================================
+	CONTRACT SECTION END
+==================================================
+*/
+
+/*
+==================================================
+	ECONOMY SECTION START
+==================================================
+*/
+
+
+
+.economy-text .slide-header {
+	margin: 30px 0;
+}
+.economy-text .slide-header .media-img{
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+
+.economy-text .slide-header h5{
+	font-size: 15px;
+}
+.economy-text .slide-header span{
+	font-size: 13px;
+	font-weight: 300;
+	color: #777;
+}
+.economy-text .slide-text{
+	margin: 20px 0;
+}
+.economy-text .slide-text h3{
+	font-size: 20px;
+}
+.economy-text .slide-text p{
+	font-size: 14px;
+}
+
+/*
+==================================================
+	ECONOMY SECTION END
+==================================================
+*/
+
+
+
+/*
+==================================================
+	BLOG SECTION START
+==================================================
+*/
+
+.blog-section .blog-heading{
+	margin: 20px 0;
+}
+.blog-section .blog-heading h1{
+	font-size: 22px;
+	font-weight: 600;
+	/*padding: 30px 0;*/
+}
+
+
+/*
+==================================================
+	BLOG SECTION END
+==================================================
+*/
+
+
+
+}
+
+
+
+@media screen and (max-width: 425px){
+
+/*
+==================================================
+	HEADER SECTION START
+==================================================
+*/
+.header-section{
+	height: 500px;
+}
+/*
+==================================================
+	HEADER SECTION END
+==================================================
+*/
+/*
+==================================================
+	BRAND SECION START
+==================================================
+*/
+.brand-section{
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+
+/*
+==================================================
+	BRAND SECION END
+==================================================
+*/
+
+
+
+}
